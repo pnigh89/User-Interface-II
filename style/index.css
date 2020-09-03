@@ -62,11 +62,15 @@ h1 {
     margin-left: 3%;
 }
 
+h2 {
+    font-size:3rem;
+}
+
 a {
     text-decoration:none;
 }
 section{
-    padding:4% 0;
+    padding:2% 0;
 }
 
 header {
@@ -76,6 +80,7 @@ header {
 nav{
     display:flex;
     margin-left: 5%;
+    
     
 }
 
@@ -87,9 +92,37 @@ nav a{
     padding:0 3%;
     color: black;
     background-color: white;
+    margin-bottom: 2%;
 }
 
 nav a:hover{
     color: white;
     background-color: black;
 }
+
+.big-top-container {
+    display:flex;
+    justify-content:space-around;
+    padding:1% 2%;
+}
+
+/* .big-top-container img{
+    max-width: 30%;
+} */
+
+.top-img-container{
+    width: 40%;
+}
+
+.text-container {
+    width: 45%;
+    display:flex;
+    flex-direction: column;
+    align-items:left;
+    margin-left:1%;
+    margin-top: 12%;
+    padding: 0 5%;
+}
+ .text-container button{
+     width: 25%;
+ }
