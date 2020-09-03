@@ -126,3 +126,34 @@ nav a:hover{
  .text-container button{
      width: 25%;
  }
+
+ .gallery {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 2%;
+     justify-content: space-between;
+ }
+
+ footer {
+     background-color: gray;
+     display:flex;
+     flex-direction: column;
+     height: 25vh;
+ }
+
+ .footer-container {
+     text-align:center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top:4%;
+ }
+
+ .footer-container button {
+     width: 15%;
+     margin:0 42%;
+ }
+
+ figure {
+     text-align: center;
+ }
