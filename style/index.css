@@ -85,6 +85,7 @@ section{
 
 header {
     background-color: gray;
+    border: 2px solid black;
 }
 
 nav{
@@ -115,6 +116,7 @@ nav a:hover{
     justify-content:space-around;
     padding:1% 2%;
     background-color: lightgray;
+    border: 2px solid black;
 }
 
 /* .big-top-container img{
@@ -151,23 +153,33 @@ nav a:hover{
      padding: 2%;
      justify-content: space-between;
      background-color: lightgray;
+     border: 2px solid black;
      
  }
 
  figure {
     text-align: center;
 }
+figure:hover{
+    font-weight: 900;
+    font-size: 2.2rem;
+}
 
  figure img{
     border-radius: 10%;
+    border: 2px solid black;
  }
 
+ figure img:hover{
+     border: 5px solid black;
+ }
  footer {
      background-color: gray;
      display:flex;
      flex-direction: column;
      justify-content: center;
      height: 25vh;
+     border: 2px solid black;
  }
 
  .footer-container {
@@ -197,4 +209,5 @@ nav a:hover{
      display: flex;
      justify-content: center;
      text-align-last: center;
+     margin:0 5%;
  }
