@@ -211,7 +211,38 @@ figure:hover{
      text-align-last: center;
      margin:0 5%;
  }
+ .mobile-img-container {
+     display: none;
+ }
 
+ /* 800px style */
+
+ @media (max-width:800px) {
+
+    nav a {
+        width: 15%;
+    }
+    .text-container {
+        align-items: center;
+    }
+
+    .text-container p{
+        margin-left: 20%;
+    }
+
+    .text-container button {
+        width: 100%;
+    }
+
+    .footer-container nav  {
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    .footer-container nav a {
+        width:20%;
+    }
+ }
  /* 500 px style */
 
  @media (max-width:500px){
@@ -251,13 +282,28 @@ figure:hover{
         margin-top: 4%;
     }
 
+    .text-container {
+        align-items: center;
+    }
+
+    .text-container p{
+        margin-left: 4%;
+    }
+
     .footer-container {
         padding: 30% 0;
     }
 
-    .footer-container nav{
-       display: none;
+    .footer-container nav a{
+    display:none;
     }
     
+    .mobile-img-container {
+        display: flex;
+        flex-direction: row;
+    }
     
+    .mobile-img-container img {
+        width: 20%;
+    }
  } 
